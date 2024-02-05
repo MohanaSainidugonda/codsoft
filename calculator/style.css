@@ -1,0 +1,30 @@
+
+body {
+    background-color: #111; /* Black background */
+}
+
+.container {
+    background-color: #000; /* Black calculator background */
+    box-shadow: 5px 5px 10px #222, -5px -5px 10px #333; /* Darker gray shadows for contrast */
+}
+
+#display {
+    color: #fff; /* White text for display */
+}
+
+.button {
+    background-color: #222; /* Dark gray button background */
+    box-shadow: 5px 5px 10px #333, -5px -5px 10px #444; /* Slightly darker gray shadows for buttons */
+}
+
+.button:active {
+    box-shadow: inset 1px 1px 2px #333, inset -1px -1px 2px #fff; /* Accentuate pressed effect */
+}
+
+.clearButton {
+    background-color: #f04a4a; /* Maintain red for clear button */
+}
+
+.mathbutton {
+    background-color: #fff; /* White for operator buttons */
+}
